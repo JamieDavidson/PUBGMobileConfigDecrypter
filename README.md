@@ -15,7 +15,9 @@ Options:
 ```
 
 ### To decrypt a file:
-Open command prompt, powershell or similar tools. Navigate to the folder that the binary is in and type the following:
+Open your favourite command line tool (Command Prompt, Powershell, Cygwin etc).
+You can easily do this by holding shift and right clicking on empty space in File Explorer.
+Navigate to the folder that the binary is in and type the following:
 ```
 .\crypter.exe -d -f decrypted.txt
 ```
