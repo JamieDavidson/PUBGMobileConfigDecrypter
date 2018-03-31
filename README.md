@@ -17,14 +17,14 @@ Options:
 ### To decrypt a file:
 Open command prompt, powershell or similar tools. Navigate to the folder that the binary is in and type the following:
 ```
-crypter.exe -d -f decrypted.txt
+.\crypter.exe -d -f decrypted.txt
 ```
 
 This will decrypt UserCustom.ini and create a file called `decrypted.txt` with the result.
 
 ### To encrypt a file:
 ```
-crypter.exe -e -f decrypted.txt
+.\crypter.exe -e -f decrypted.txt
 ```
 
 This will take the decrypted file and turn it back in to a UserCustom.ini file.

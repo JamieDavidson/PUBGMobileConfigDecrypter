@@ -139,6 +139,7 @@ namespace PUBGMobileConfigDecrypter
             }
 
             File.WriteAllText(UserCustomPath, stringBuilder.ToString());
+            Console.WriteLine("Done! File has been encrypted!");
         }
 
         static void DecryptFile(string filePath)
@@ -193,6 +194,7 @@ namespace PUBGMobileConfigDecrypter
             }
 
             File.WriteAllText(filePath, stringBuilder.ToString());
+            Console.WriteLine("Done! File has been decrypted!");
         }
     }
 
