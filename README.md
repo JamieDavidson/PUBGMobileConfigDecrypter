@@ -1,4 +1,4 @@
-# Warning: Because of the Xor operator used in combination with a static key, some (if not all) antiviruses will flag this as malware. This poor encryption technique is commonly associated with malware, most commonly in poorly written ransomware. Blame PUBG Mobile publishers for encrypting their files this way.
+## Warning: Because of the Xor operator used in combination with a static key, some (if not all) antiviruses will flag this as malware. This poor encryption technique is commonly associated with malware, most commonly in poorly written ransomware. Blame PUBG Mobile publishers for encrypting their files this way.
 
 ## Make sure you place your UserCustom.ini file in the same folder as the executable.
 ### Help text:
