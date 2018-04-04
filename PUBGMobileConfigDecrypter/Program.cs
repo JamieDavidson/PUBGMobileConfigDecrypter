@@ -125,7 +125,7 @@ namespace PUBGMobileConfigDecrypter
                 {
                     try
                     {
-                        var encryptedCharacter = Encryption.Encrypt(strippedLine[j]);
+                        var encryptedCharacter = Encryption.EncryptCharacter(strippedLine[j]);
                         stringBuilder.Append(encryptedCharacter);
                     }
                     catch (ArgumentException e)
@@ -180,7 +180,7 @@ namespace PUBGMobileConfigDecrypter
                     var character = new string(strippedLine.Skip(2*j).Take(2).ToArray());
                     try
                     {
-                        var decryptedCharacter = Encryption.Decrypt(character);
+                        var decryptedCharacter = Encryption.DecryptCharacter(character);
                         stringBuilder.Append(decryptedCharacter);
                     }
                     catch (ArgumentException exception)

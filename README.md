@@ -1,5 +1,4 @@
-# PUBGMobileConfigDecrypter
-This was a quick and easy thing that I threw together, it's not well written and may be flaky.
+# Warning: Because of the Xor operator used in combination with a static key, some (if not all) antiviruses will flag this as malware. This poor encryption technique is commonly associated with malware, most commonly in poorly written ransomware. Blame PUBG Mobile publishers for encrypting their files this way.
 
 ## Make sure you place your UserCustom.ini file in the same folder as the executable.
 ### Help text:
@@ -32,3 +31,9 @@ This will decrypt UserCustom.ini and create a file called `decrypted.txt` with t
 This will take the decrypted file and turn it back in to a UserCustom.ini file.
 
 ## Warning: This will overwrite files by default.
+
+```
+TODO:
+Catch IO exceptions when reading/writing files
+Replace command line options parsing library with one that's more robust
+```
