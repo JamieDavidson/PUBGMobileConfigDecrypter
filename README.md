@@ -36,4 +36,5 @@ This will take the decrypted file and turn it back in to a UserCustom.ini file.
 TODO:
 Catch IO exceptions when reading/writing files
 Replace command line options parsing library with one that's more robust
+Investigate if this still works for the recent v0.4 release
 ```
